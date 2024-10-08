@@ -1,6 +1,6 @@
 
 
-  # Alhpa     ![Appache 2.0 license](https://img.shields.io/badge/license-Apache%202.0-yellow?style=flat-square)
+  # Alhpa     ![MIT license](https://img.shields.io/badge/license-MIT-orange)
 
 
   --------------------------
@@ -12,28 +12,28 @@
 [Installation](#installation)  
 [Usage](#usage)  
 [License](#license)  
-[Contrubutors](#Contrubutors)  
+[Contrubutors](#contrubutors)  
 [Tests](#tests)  
 [Questions](#questions)  
-[Email](#email)  
-[GitHub](#gitHub)  
+[Contact](#contact)  
+[GitHub](#github)  
 
  --------------------------
 
-  ## Discription
-  This project about AI & QC
+  ## Description
+  Project about AI & QC
 
   ## Installation
-     N/A
+  N/A
 
   ## Usage
-  N/A 
+  Anyone who is intreasted in AI & QC 
 
   ## License 
-  Appache 2.0 license.   ![Appache 2.0 license](https://img.shields.io/badge/license-Apache%202.0-yellow?style=flat-square)
+  MIT license.   ![MIT license](https://img.shields.io/badge/license-MIT-orange)
 
   ## Contrubutors
-  Anas zghool 
+  Anas Alaiwah 
 
   ## Tests
   N/A
@@ -41,8 +41,10 @@
 
   ## Question
 -------------------------------------------------
- if you have any question please reach me at Anaszghool@gmail.com
-
+ if you have any question please reach me at please feel free to reach me at the following contact
+ 
+## Contact
+Anaszghool@gmail.com
 ## Github 
 [https://github.com/Anzgo](https://github.com/Anzgo)
 

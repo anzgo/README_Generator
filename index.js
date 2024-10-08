@@ -14,22 +14,22 @@ const questions = [
 
             {
                 type: "input",
-                message: "Please provide a short descrioption of your project",
+                message: "Please provide a short description of your project",
                 name:"description"
                     },  
 
-            {
-            type: "input",
-            message: "Please provide a instalation of your project",
-            name:"installation"
-                },
-
-
-            {
+                {
                 type: "input",
-                message: "Please provide usage information",
-                name:"usage"
+                message: "Please provide a instalation of your project",
+                name:"installation"
                     },
+
+
+                {
+                    type: "input",
+                    message: "Please provide usage information",
+                    name:"usage"
+                        },
 
 
                     {
@@ -44,17 +44,17 @@ const questions = [
                                 name:"tests"
                                     }, 
 
-            {
-        type: "list",
-        message:"Please choose the licenses",
-        name:"license",
-        choices:['Appache 2.0',
-                'MIT',
-                'BSD 2',
-                'BSD 3',
-                 'N/A'],
-                },
-                
+                    {
+                type: "list",
+                message:"Please choose the licenses",
+                name:"license",
+                choices:['Appache 2.0',
+                        'MIT',
+                        'BSD 2',
+                        'BSD 3',
+                        'N/A'],
+                        },
+                        
                 {
                     type: "input",
                 message: "Please Provide your email address",
@@ -85,9 +85,8 @@ fs.writeFile(fileName, data, (err) => {
 
 // TODO: Create a function to initialize app
 function init() {
-inquirer.prompt(questions).then((answers) => {
-    console.log(answers);
-    writeToFile('newREADME.md', generateMarkdown(answers));
+inquirer.prompt(questions).then((answers) => { console.log(answers);
+     writeToFile('newREADME.md', generateMarkdown(answers));
 });
 }
 

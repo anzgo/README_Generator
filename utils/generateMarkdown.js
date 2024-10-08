@@ -4,8 +4,8 @@ function renderLicenseBadge(license) {
 
   switch(license){
 
-    case 'Appache 2.0':
-      return '![Appache 2.0 license](https://img.shields.io/badge/license-Apache%202.0-yellow?style=flat-square)';
+    case 'Apache 2.0':
+      return '![Apache 2.0 license](https://img.shields.io/badge/license-Apache%202.0-yellow?style=flat-square)';
     
     case 'MIT':
       return '![MIT license](https://img.shields.io/badge/license-MIT-orange)';
@@ -29,7 +29,7 @@ function renderLicenseLink(license) {
 
 switch(license){
 
-case 'Appache 2.0':
+case 'Apache 2.0':
   return '(https://opensource.org/license/apache-2-0)';
 
 case 'MIT':
@@ -75,19 +75,19 @@ function generateMarkdown(data) {
 [Installation](#installation)  
 [Usage](#usage)  
 [License](#license)  
-[Contrubutors](#Contrubutors)  
+[Contributors](#contributors)  
 [Tests](#tests)  
 [Questions](#questions)  
-[Email](#email)  
-[GitHub](#gitHub)  
+[Contact](#contact)  
+[GitHub](#github)  
 
  --------------------------
 
-  ## Discription
+  ## Description
   ${data.description}
 
   ## Installation
-     ${data.installation}
+  ${data.installation}
 
   ## Usage
   ${data.usage} 
@@ -95,7 +95,7 @@ function generateMarkdown(data) {
   ## License 
   ${renderLicenseSection(data.license)}   ${renderLicenseBadge(data.license)}
 
-  ## Contrubutors
+  ## Contributors
   ${data.contrubutors} 
 
   ## Tests
@@ -104,8 +104,10 @@ function generateMarkdown(data) {
 
   ## Question
 -------------------------------------------------
- if you have any question please reach me at ${data.email}
-
+ if you have any question please reach me at please feel free to reach me at the following contact
+ 
+  ## Contact
+${data.email}
 ## Github 
 [https://github.com/${data.username}](https://github.com/${data.username})
 
